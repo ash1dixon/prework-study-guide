@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -82,7 +83,52 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Add JavaScript File to the Repo
+          Complete the following steps to create a feature branch and add a JavaScript file to the prework-study-guide repo:
+          In the command line, navigate to the prework-study-guide directory.
+          Check what branch you are currently on by running git status.
+          If you are not on the main branch, run git checkout main to switch to the main branch.
+          Pull the remote main branch into the local main branch by running git pull origin main. Now your local and remote main branches are in sync!
+          Create a new feature branch for the JavaScript file by entering git checkout -b feature/add-js into the command line.
+          Navigate to the assets/ folder in the project repo by entering cd assets in the command line. This is the same folder where we added the style.css file in the previous lesson.
+          Create a new file inside the assets folder called script.js by entering touch script.js in the command line.
+         In VS Code, open the prework-study-guide directory, and then open the script.js file.</li>
+         <li>Open index.html in VS Code and add the following code under the footer element and above the closing element for body </li>
+        <li> script src="./assets/script.js" /script </li>
+        <li>Sometimes we want to provide more conditions than just if. In JavaScript, we can have more than one condition—just like we did in the dishes pseudocode—by using else if, as demonstrated in the following code example:</li>
+        <li>if (first condition) {
+          <br>
+          // block of code to be executed if first condition is truthy
+          <br>
+       } else if (second condition) {
+        <br>
+          // block of code to be executed if second condition is truthy
+          <br>
+       }</li>
+      <li>The following is an example of an if statement:
+        <br>
+        if (0) {
+          <br>
+           console.log("I'm 0!")
+           <br>
+        } else if (null) {
+          <br>
+           console.log("I'm null!")
+           <br>
+        } else if (true) {
+          <br>
+           console.log("I'm true!")
+           <br>
+        }</li>
+        <li>Loops are handy, if you want to run the same code over and over again, each time with a different value.
+          <br>
+          Often this is the case when working with arrays:</li>
+          <li>for (let i = 0; i < cars.length; i++) {
+            text += cars[i] + "<br>";
+          }</li>
+          <li>https://www.w3schools.com/js/js_loop_for.asp</li>
+
+
         </ul>
    
       </section>
@@ -92,5 +138,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
